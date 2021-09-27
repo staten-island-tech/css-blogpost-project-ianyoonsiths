@@ -21,19 +21,19 @@ body{
     font-family: "Lucida Console", "Courier New", monospace;
 }
 .main-blog{
-    background-color: darkslategray;
-    width: 60px;
+    background-color:dimgray;
+    width: 90vw;
     margin: 3rem auto;
     padding: 12px;
     text-align: center;
 }
 .post{
-    background-color: dimgray;
+    background-color:dimgray;
     color: black;
     width: 80vw;
-    margin: 3rem auto;
+    margin: 2rem auto;
     padding: 12px 24px;
-    
+    text-align: center;
 }
 .post-header{
     background-color: dimgray;
@@ -43,6 +43,10 @@ body{
     text-align: center;
 }
 .post-image-sleep{
-    
+    background-image: url(img/sleep.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+    height: 20vh;
 }
 
