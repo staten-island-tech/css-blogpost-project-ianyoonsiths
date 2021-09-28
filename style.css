@@ -21,10 +21,10 @@ body{
     font-family: "Lucida Console", "Courier New", monospace;
 }
 .main-blog{
-    background-color:dimgray;
+    background-color:cornflowerblue;
     width: 90vw;
     margin: 3rem auto;
-    padding: 12px;
+    padding: 12px 24px;
     text-align: center;
 }
 .post{
@@ -37,9 +37,16 @@ body{
 }
 .post-header{
     background-color: dimgray;
-    width: 80vw;
+    width: 75vw;
     margin: 3rem auto;
     padding: 12px 24px;
+    text-align: center;
+}
+.post-link{
+    background-color: dimgray;
+    width: 80vw;
+    margin: 3rem auto;
+    padding: 11px 24px;
     text-align: center;
 }
 .post-image-sleep{
@@ -50,3 +57,17 @@ body{
     height: 20vh;
 }
 
+.post-image-pat{
+    background-image: url(img/anger\ valorant.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+    height: 65vh;
+}
+.post-image-hasan{
+    background-image: url(img/die\ lit!.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+    height: 65vh;
+}
